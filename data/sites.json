@@ -1,0 +1,202 @@
+{
+    "www.google.com":{
+        "name":"谷歌",
+        "seletor":"[valign=top]",
+        "currentPageSeletor":"[class=cur]",
+        "adjoinPageSeletor": "a"
+    },
+    "www.baidu.com": {
+        "name":"百度",
+        "seletor":"[id=page]",
+        "currentPageSeletor":"[id=page]>strong"
+    },
+    "www.so.com": {
+        "name":"360搜索",
+        "seletor":"[id=page]",
+        "currentPageSeletor":"[id=page]>strong"
+    },
+    "www.sogou.com": {
+        "name":"搜狗搜索",
+        "seletor":"[id=pagebar_container]",
+        "currentPageSeletor":"[id=pagebar_container]>span"
+    },
+    "cn.bing.com": {
+        "name":"必应搜索",
+        "seletor":"nav[role=navigation]>ul",
+        "currentPageSeletor":"li>a[class*=sb_pagS_bp]",
+        "isCurrentPageUpward": true,
+        "adjoinPageSeletor": "a"
+    },
+    "www.chinaso.com": {
+        "name":"中国搜索",
+        "seletor":"[id=pager]",
+        "currentPageSeletor":"[id=pager]>span"
+    },
+    "search.yahoo.com": {
+        "name":"雅虎搜索",
+        "seletor":"[class=compPagination]",
+        "currentPageSeletor":"[class=compPagination]>strong"
+    },
+    "www.ecosia.org": {
+        "name":"ECOSIA",
+        "seletor":"[class=pagination]",
+        "currentPageSeletor":"[aria-current=page]"
+    },
+    "yandex.com": {
+        "name":"Yandex",
+        "seletor":"div[class=pager__items]",
+        "currentPageSeletor":"span[class*=pager__item_current_yes]"
+    },
+    "github.com": {
+        "name":"GitHub",
+        "seletor":"[class*=pagination]",
+        "currentPageSeletor":"em[class=current]"
+    },
+    "stackoverflow.com": {
+        "name":"StackOverflow",
+        "seletor":"[class*=pager]",
+        "currentPageSeletor":"span[class*=current]"
+    },
+    "search.sina.com.cn": {
+        "name":"新浪搜索",
+        "seletor":"[class=pagebox]",
+        "currentPageSeletor":"[class=pagebox]>b"
+    },
+    "search.cctv.com": {
+        "name":"央视搜索",
+        "seletor":"[class=page]",
+        "currentPageSeletor":"[class=page]>a[class=cur]"
+    },
+    "so.csdn.net": {
+        "name":"CSDN搜索",
+        "seletor":"[class=page-nav]",
+        "currentPageSeletor":"[class=page-nav]>a[class*=active]"
+    },
+    "search.dxy.cn": {
+        "name":"丁香搜索",
+        "seletor":"[id=j_page]",
+        "currentPageSeletor":"[class=pg-cur]"
+    },
+    "s.taobao.com": {
+        "name":"淘宝搜索",
+        "seletor":"ul[class=items]",
+        "currentPageSeletor":"ul[class=items]>li[class*=active]",
+        "adjoinPageSeletor": "a"
+    },
+    "list.tmall.com": {
+        "name":"天猫搜索",
+        "seletor":"b[class=ui-page-num]",
+        "currentPageSeletor":"b[class=ui-page-cur]"
+    },
+    "iqiyi.com": {
+        "name":"爱奇艺搜索",
+        "seletor":"[class=csPpFeed_comPage]",
+        "currentPageSeletor":"span[class*=curPage]"
+    },
+    "so.youku.com": {
+        "name":"优酷搜索",
+        "seletor":"[class=page-nav]>ul",
+        "currentPageSeletor":"li[class=current]",
+        "adjoinPageSeletor": "a"
+    },
+    "qq.com": {
+        "name":"腾讯视频搜索",
+        "seletor":"[class=-mod_pages]>span",
+        "currentPageSeletor":"a[class=\"page_num current\"]"
+    },
+    "soopat.com": {
+        "name":"SooPAT",
+        "seletor":"[id=SoopatPager]",
+        "currentPageSeletor":"[id=SoopatPager]>strong"
+    },
+    "s.geekbang.org": {
+        "name":"极客搜索",
+        "seletor":"ul[class=ivu-page]",
+        "currentPageSeletor":"li[class*=ivu-page-item-active]",
+        "adjoinPageSeletor": "a"
+    },
+    "s.pinggu.org": {
+        "name":"经管之家搜索",
+        "seletor":"div[class=pg]",
+        "currentPageSeletor":"div[class=pg]>strong"
+    },
+    "so.mydrivers.com": {
+        "name":"驱动之家搜索",
+        "seletor":"span[class=number]",
+        "currentPageSeletor":"span[class=current]",
+        "adjoinPageSeletor": "a"
+    },
+    "med.wanfangdata.com.cn": {
+        "name":"万方医学网",
+        "seletor":"div[class=pager]>ul",
+        "currentPageSeletor":"b[class=current]",
+        "isCurrentPageUpward": true,
+        "adjoinPageSeletor": "a"
+    },
+    "www.daysou.com": {
+        "name":"天天网盘搜索",
+        "seletor":"tr[valign=top]",
+        "currentPageSeletor":"td[class=cur]",
+        "adjoinPageSeletor": "a"
+    },
+    "www.douyu.com": {
+        "name":"斗鱼",
+        "seletor":"[unselectable=unselectable]",
+        "currentPageSeletor":"[class*=dy-Pagination-item-active]"
+    },
+    "search.bilibili.com": {
+        "name":"Bilibili",
+        "seletor":"ul[class=pages]",
+        "currentPageSeletor":"ul[class=pages]>li[class*=active]",
+        "adjoinPageSeletor": "button"
+    },
+    "www.acfun.cn": {
+        "name":"AcFun",
+        "seletor":"[id=list-pager]>div",
+        "currentPageSeletor":"[id=list-pager]>div>span[class*=active]"
+    },
+    "music.163.com": {
+        "name":"网易云音乐",
+        "seletor":"[class*=u-page]",
+        "currentPageSeletor":"[class*=u-page]>a[class*=js-selected]"
+    },
+    "book.douban.com": {
+        "name":"豆瓣读书",
+        "seletor":"[class*=paginator]",
+        "currentPageSeletor":"[class=thispage]"
+    },
+    "music.douban.com": {
+        "name":"豆瓣音乐",
+        "seletor":"[class*=paginator]",
+        "currentPageSeletor":"[class=thispage]"
+    },
+    "read.douban.com": {
+        "name":"豆瓣阅读",
+        "seletor":"div[class*=paginator-full]",
+        "currentPageSeletor":"li a[class*=\"page active\"]",
+        "isCurrentPageUpward": true,
+        "adjoinPageSeletor": "a"
+    },
+    "search.douban.com": {
+        "name":"豆瓣搜索",
+        "seletor":"[class*=paginator]",
+        "currentPageSeletor":"[class*=thispage]"
+    },
+    "www.ituring.com.cn": {
+        "name":"图灵社区",
+        "seletor":"[class=PagedList-pager]",
+        "currentPageSeletor":"[class*=PagedList-currentPage]",
+        "adjoinPageSeletor": "a"
+    },
+    "www.iplaysoft.com": {
+        "name":"异次元软件",
+        "seletor":"[class=pagenavi]",
+        "currentPageSeletor":"span[class=current]"
+    },
+    "search.jiayuan.com": {
+        "name":"世纪佳缘搜索",
+        "seletor":"[class=pageclass]>ol",
+        "currentPageSeletor":"[id=select_box]",
+        "adjoinPageSeletor": "a"
+    }
+}
